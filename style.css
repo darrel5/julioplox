@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Reset some basic styles */
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.deck-list {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/* Ensure each line prints on a new line */
+.deck-list p {
+    margin-bottom: 8px;
+    font-size:  30px;
+    display: block;
+}
+
+/* Responsive adjustments for any device */
+@media screen and (max-width: 1200px) {
+    .deck-list {
+        padding: 15px;
+        max-width: 80%;
+        font-size:  18px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .deck-list p {
+        font-size:  18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .deck-list {
+        padding: 15px;
+        max-width: 90%;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .deck-list p {
+        font-size:  18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .deck-list {
+        padding: 10px;
+        max-width: 95%;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .deck-list p {
+        font-size:  18px;
+    }
+}
